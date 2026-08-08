@@ -1,0 +1,29 @@
+/* Make scrolling behavior smooth */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Set the foreground color for the body */
+body {
+  color: #161616;
+}
+
+/* Set the foreground color for anchor elements */
+a {
+  color: #161616;
+}
+
+/* Hide elements with the visually-hidden class */
+.visually-hidden {
+  display: none;
+}
+
+/* Set the foreground color for card categories */
+.card-category {
+  color: #D73953;
+}
+
+/* Set the foreground color for section taglines */
+.section-tagline {
+  color: #D73953;
+}
