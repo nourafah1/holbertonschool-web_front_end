@@ -1,0 +1,53 @@
+/* Make scrolling behavior smooth */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Define custom properties */
+:root {
+  --color-primary: #d73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: var(--color-black);
+
+  --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Set the foreground color and font family for the body */
+body {
+  color: var(--text-color);
+  font-family: var(--font-family-base);
+}
+
+/* Set the foreground color for anchor elements */
+a {
+  color: var(--text-color);
+}
+
+/* Hide elements with the visually-hidden class */
+.visually-hidden {
+  display: none;
+}
+
+/* Set the foreground color for card categories */
+.card-category {
+  color: var(--color-primary);
+}
+
+/* Set the foreground color for section taglines */
+.section-tagline {
+  color: var(--color-primary);
+}
+
+/* Set the font family for all headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-title);
+}
