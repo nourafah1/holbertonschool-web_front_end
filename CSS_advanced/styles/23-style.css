@@ -448,8 +448,8 @@ h6 {
   display: block;
 }
 
-/* Style social link icons */
-.social-link svg {
+/* Style social SVG icons */
+.social-link > svg {
   fill: var(--text-color);
 }
 
